@@ -51,18 +51,19 @@ public class Calculator {
     public void display(){
         System.out.println("QUADRATIC FORMULA");
         System.out.println("The solutions for "+1+"x^2 + "+5+"x "+6+" are "+ quadraticPlus(1,5,6) +" and "+ quadraticMinus(1,5,6) +".\n");
-
+        // QUADRATIC FORMULA
         System.out.println("SLOPE FORMULA");
         System.out.println("A line connecting the points ("+0+","+0+") and ("+2+","+3+") has a slope of "+ slope(0,0,2,3)+".\n");
-
+        // SLOPE FORMULA
         System.out.println("MIDPOINT FORMULA");
         System.out.println("The midpoint between ("+0+","+0+") and ("+2+","+3+") is ("+ midpointX(0,0,2,3)+","+ midpointY(0,0,2,3)+").\n");
-
+        // MIDPOINT FORMULA
         System.out.println("SUM OF AN ARTITHMETIC SERIES");
         System.out.println("The sum of the first "+5+" terms of an arithmetic series that starts with "+1+" and increases by "+ 1 + " is "+ sumArith(1,1,5) +".\n");
-
+        // SUM OF AN ARTITHMETIC SERIES FORMULA
         System.out.println("SUM OF AN GEOMETRIC SERIES");
         System.out.println("The sum of the first "+3+" terms of a finite geometric series that starts with "+3+" and increases by a rate of "+ 2.0 + " is "+sumGeo(3,2,3)+".\n");
+        // SUM OF AN GEOMETRIC SERIES FORMULA
         return;
     }
 }
